@@ -14,5 +14,11 @@ namespace Spotify
         public int CountMusic { get; set; }
 
 
+        public int ArtistId { get; set; }
+        public Artist Artist { get; set; }
+
+        public ICollection<Music> Musics { get; set; }
+
+
     }
 }

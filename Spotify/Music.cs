@@ -13,6 +13,10 @@ namespace Spotify
 
         public double TotalSecond { get; set; }
 
+        public int ArtistId { get; set; }
+        public Artist Artist { get; set; }
 
+        public int? AlbumId { get; set; }  // Bazı şarkılar albümsüz olabilir
+        public Album? Album { get; set; }
     }
 }
