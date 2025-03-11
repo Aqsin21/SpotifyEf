@@ -16,7 +16,7 @@ namespace Spotify
         public int ArtistId { get; set; }
         public Artist Artist { get; set; }
 
-        public int? AlbumId { get; set; }  // Bazı şarkılar albümsüz olabilir
+        public int? AlbumId { get; set; }  
         public Album? Album { get; set; }
     }
 }

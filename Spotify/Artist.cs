@@ -15,7 +15,7 @@ namespace Spotify
         public string Description { get; set; }
 
 
-        public ICollection<Album> Albums { get; set; }
-        public ICollection<Music> Musics { get; set; }
+        public List<Album> Albums { get; set; }
+        public List<Music> Musics { get; set; }
     }
 }

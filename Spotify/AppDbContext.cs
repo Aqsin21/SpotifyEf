@@ -15,7 +15,7 @@ namespace Spotify
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Server=DESKTOP-L886DE2;Database=Pb304EfLesson;Trusted_Connection=True;TrustServerCertificate=true");
+            optionsBuilder.UseSqlServer("Server=DESKTOP-L886DE2;Database=Spotify;Trusted_Connection=True;TrustServerCertificate=true");
         }
 
     }
